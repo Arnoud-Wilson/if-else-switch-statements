@@ -51,10 +51,10 @@ else {
 const isRaining = false;
 const temperature = 23;
 
-if (isRaining === false, temperature > 21) {
+if ((isRaining === false) && (temperature > 21)) {
     console.log("Je kunt een korte broek aan!");
 }
-else if (isRaining === true, temperature < 12) {
+else if ((isRaining === true) || (temperature < 12)) {
     console.log("Doe een jas aan");
 }
 else {
