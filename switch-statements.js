@@ -2,7 +2,7 @@
 // Opdracht 1: schrijf een switch statement die op basis van de volgende variabele een bijbehorende foutmelding in de console logt.
 // ==========================================
 
-let errorCode = 0;
+const errorCode = 0;
 switch (errorCode) {
     case 0:
         console.log("Geen watertoevoer");
@@ -37,7 +37,7 @@ switch (errorCode) {
 // Opdracht 2: schrijf een switch statement die op basis van de volgende variabele een bijbehorende foutmelding in de console logt.
 // ==========================================
 
-let monitorColor = "green";
+const monitorColor = "green";
 
 switch (monitorColor) {
     case "green":

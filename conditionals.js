@@ -32,7 +32,7 @@ console.log("Zijn deze woorden hetzelfde?", outcomeThree);
 //     Als dat zo is, loggen we 'Cum laude!' in de console.                                                     // geeft 'Cum laude!' wanneer gelogd
 // ==========================================
 
-let grade = 9;
+const grade = 9;
 
 if(grade > 8) {
     console.log("Cum Laude!");
